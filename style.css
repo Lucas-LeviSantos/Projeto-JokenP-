@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    min-width: 500px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.btn {
+    font-size: 60px;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover , #resetBtn:hover{
+    opacity: 0.7;
+}
+
+#rockBtn{
+    background-color: #a200ff;
+}
+
+#paperBtn{
+    background-color: #9ee01a;
+}
+
+#scissorsBtn{
+    background-color: #7dbeed;
+}
+
+#resetBtn{
+    margin-top: 40px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#yourScore {
+    color: rgb(74, 157, 252)
+}
+
+#result {
+    font-size: 30px;
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+#scoreMachine {
+    color: rgb(239, 113, 49);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Jokenpô</h1>
+
+        <div class="btns">
+            <button onclick="yourChoice('rock')" class="btn" id="rockBtn" value="rock"> &#x270A;&#x1F3FD; </button>
+            <button onclick="yourChoice('paper')" class="btn" id="paperBtn" value="paper"> &#x270B;&#x1F3FD; </button>
+            <button onclick="yourChoice('scissors')" class="btn" id="scissorsBtn" value="scissors"> &#x270C;&#x1F3FD;
+            </button>
+        </div>
+
+        <button id="resetBtn">&#x1F504;</button>
+
+        <div class="scoreboard">
+            <div class="div" id="yourScore">0</div>
+            <div class="div" id="result">-</div>
+            <div class="div" id="scoreMachine">0</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
